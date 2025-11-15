@@ -1,5 +1,5 @@
 import React from 'react'
-import CardWeb from '../assets/card/web'
+import CardWeb from '../assets/card/Web.js'
 import { Link } from 'react-router-dom'
 
 const Card = ({id, image, alt, title, text, tags, type }) => {
