@@ -3,6 +3,14 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      setIsOpen(false); // tutup menu mobile setelah klik
+    }
+  };
+
   return (
     <nav className="fixed top-0 w-full z-50 shadow-sm py-1 md:py-4 bg-gray-900">
       <div className="container mx-auto px-6">
@@ -14,21 +22,21 @@ const Navbar = () => {
 
           {/* Menu desktop */}
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="hover:text-purple-500 text-white transition-colors">
+            <button onClick={() => scrollToSection("home")} className="hover:text-purple-500 text-white transition-colors">
               Home
-            </a>
-            <a href="#projects" className="hover:text-purple-500 text-white transition-colors">
+            </button>
+            <button onClick={() => scrollToSection("projects")} className="hover:text-purple-500 text-white transition-colors">
               Projects
-            </a>
-            <a href="#skills" className="hover:text-purple-500 text-white transition-colors">
+            </button>
+            <button onClick={() => scrollToSection("skills")} className="hover:text-purple-500 text-white transition-colors">
               Skills
-            </a>
-            <a href="#about" className="hover:text-purple-500 text-white transition-colors">
+            </button>
+            <button onClick={() => scrollToSection("about")} className="hover:text-purple-500 text-white transition-colors">
               About
-            </a>
-            <a href="#contact" className="hover:text-purple-500 text-white transition-colors">
+            </button>
+            <button onClick={() => scrollToSection("contact")} className="hover:text-purple-500 text-white transition-colors">
               Contact
-            </a>
+            </button>
           </div>
 
           {/* Toggle button mobile */}
@@ -52,41 +60,21 @@ const Navbar = () => {
         <div className="md:hidden bg-gray-900 shadow-lg">
           <div className="container mx-auto px-6 py-4">
             <div className="flex flex-col space-y-4">
-              <a
-                href="#home"
-                className="py-2 hover:text-purple-500"
-                onClick={() => setIsOpen(false)}
-              >
+              <button onClick={() => scrollToSection("home")} className="py-2 hover:text-purple-500">
                 Home
-              </a>
-              <a
-                href="#projects"
-                className="py-2 hover:text-purple-500"
-                onClick={() => setIsOpen(false)}
-              >
+              </button>
+              <button onClick={() => scrollToSection("projects")} className="py-2 hover:text-purple-500">
                 Projects
-              </a>
-              <a
-                href="#skills"
-                className="py-2 hover:text-purple-500"
-                onClick={() => setIsOpen(false)}
-              >
+              </button>
+              <button onClick={() => scrollToSection("skills")} className="py-2 hover:text-purple-500">
                 Skills
-              </a>
-              <a
-                href="#about"
-                className="py-2 hover:text-purple-500"
-                onClick={() => setIsOpen(false)}
-              >
+              </button>
+              <button onClick={() => scrollToSection("about")} className="py-2 hover:text-purple-500">
                 About
-              </a>
-              <a
-                href="#contact"
-                className="py-2 hover:text-purple-500"
-                onClick={() => setIsOpen(false)}
-              >
+              </button>
+              <button onClick={() => scrollToSection("contact")} className="py-2 hover:text-purple-500">
                 Contact
-              </a>
+              </button>
             </div>
           </div>
         </div>

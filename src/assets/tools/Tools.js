@@ -20,6 +20,10 @@ const technologi = [
         title: "React"
     },
     {
+        icon: "fa-brands fa-vuejs text-4xl text-green-500 mb-2",
+        title: "Vue"
+    },
+    {
         icon: "fab fa-node-js text-4xl text-green-500 mb-2",
         title: "Node.js"
     },
@@ -30,6 +34,10 @@ const technologi = [
     {
         icon: "fab fa-git-alt text-4xl text-red-500 mb-2",
         title: "Git"
+    },
+    {
+        icon: "fa-brands fa-figma text-4xl text-red-500 mb-2",
+        title: "Figma"
     },
 ]
 

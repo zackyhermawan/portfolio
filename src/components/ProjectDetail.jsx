@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import CardWeb from '../assets/card/web'
+import CardWeb from '../assets/card/Web'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import CardUiUx from '../assets/card/UIUX'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
 
 const ProjectDetail = () => {
   const { type, id } = useParams()
@@ -18,7 +24,7 @@ const ProjectDetail = () => {
   const fitur = type === 'web' ? 'Fitur Utama' : 'Total Halaman';
   const fiturUtama = type === 'web' ? 'Fitur Utama' : 'Total Halaman';
   const title = type === 'web' ? 'Teknologi yang digunakan': 'Alat yang digunakan';
-  const view = type === 'web' ? 'Lihat Demo' : 'Lihat Prototype';
+  const view = type === 'web' ? 'Lihat Github' : 'Lihat Prototype';
   const iconTotal = type === 'web' 
     ? 'fa-solid fa-code' 
     : 'fa-solid fa-paintbrush'
@@ -105,11 +111,33 @@ const ProjectDetail = () => {
 
           <section>
             <div className="container mx-auto py-3">
+              {project.images && project.images.length > 1 ? (
+              <Swiper
+                modules={[Navigation, Pagination]}
+                spaceBetween={20}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+                className="rounded-xl mb-6"
+              >
+                {project.images.map((img, idx) => (
+                  <SwiperSlide key={idx}>
+                    <img
+                      src={img}
+                      alt={`Gambar ${idx + 1}`}
+                      className="w-full h-auto object-contain object-top rounded-xl"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            ) : (
               <img
                 src={project.image}
                 alt={project.alt}
                 className="w-full h-auto object-contain object-top rounded-xl mb-6"
               />
+            )}
+
             </div>
 
             <div className="flex flex-col bg-gray-200/50 px-4 py-4 rounded">

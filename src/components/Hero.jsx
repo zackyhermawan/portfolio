@@ -1,6 +1,14 @@
 import React from 'react'
 
 const Hero = () => {
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -22,14 +30,14 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row sm:justify-center md:justify-start gap-4">
               <a
-                href="#projects"
-                className="bg-white text-purple-500 px-6 sm:px-8 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-center"
+                onClick={()=> scrollToSection('projects')}
+                className="bg-white cursor-pointer text-purple-500 px-6 sm:px-8 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-center"
               >
                 View My Work
               </a>
               <a
-                href="#contact"
-                className="border-2 border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-500 transition-all duration-300 text-center"
+              onClick={()=> scrollToSection('contact')}
+                className="border-2 cursor-pointer border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-500 transition-all duration-300 text-center"
               >
                 Get In Touch
               </a>

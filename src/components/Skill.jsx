@@ -20,9 +20,9 @@ const Skill = () => {
             </h3>
 
             <div className="space-y-6">
-              <SkillBar skill="Frontend Developer" percent="87%" />
-              <SkillBar skill="Backend Developer" percent="75%" />
-              <SkillBar skill="Database Management" percent="75%" />
+              <SkillBar skill="Frontend Developer" percent="93%" />
+              <SkillBar skill="Backend Developer" percent="84%" />
+              <SkillBar skill="Database Management" percent="84%" />
               <SkillBar skill="UI/UX" percent="80%" />
             </div>
           </div>

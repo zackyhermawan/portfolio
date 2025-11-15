@@ -38,7 +38,7 @@ const Project = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {activeTab === 'web' && CardWeb.map((item) => (
+                {activeTab === 'web' && [...CardWeb].reverse().map((item) => (
                     <Card 
                     key={item.id} 
                     id={item.id} 
