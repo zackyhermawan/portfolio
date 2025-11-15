@@ -16,7 +16,7 @@ const CardWeb = [
     title: "Dashboard Admin",
     text: "Aplikasi manajemen inventaris yang memudahkan pencatatan barang masuk, keluar, serta memantau stok secara akurat dan real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: null
+    link: "https://github.com/zackyhermawan/Dashboard-Inventaris-Competitive-Web"
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const CardWeb = [
     title: "Dasboard Inventaris",
     text: "Aplikasi dashboard inventaris untuk memudahkan pengelolaan stok barang, pencatatan transaksi, dan pembuatan laporan secara real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: null
+    link: "https://github.com/zackyhermawan/inventaris"
   },
   {
     id: 4,
