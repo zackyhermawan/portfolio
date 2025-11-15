@@ -53,7 +53,7 @@ const CardWeb = [
     title: "Sistem Aduan Masyarakat",
     text: "Tugas kuliah, merancang aplikasi Sistem Aduan Masyarakat Berbasis Web.",
     tags: ["Tailwind", "Javascript", "PHP", "MySQL"],
-    link: "#"
+    link: "https://github.com/zackyhermawan/Sistem-Aduan-Masyarakat"
   },
    {
     id: 5,
