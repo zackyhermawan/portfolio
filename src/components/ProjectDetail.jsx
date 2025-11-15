@@ -80,7 +80,6 @@ const ProjectDetail = () => {
               </div>
             </div>
 
-            {project.type === 'web'}
             <a
               href={`${project.link}`} target='_blank'
               className="flex items-center rounded gap-2 px-5 py-2 bg-gradient-to-r from-blue-500 to-purple-400 w-fit text-white text-sm sm:text-base"

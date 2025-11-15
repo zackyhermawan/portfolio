@@ -16,7 +16,7 @@ const CardWeb = [
     title: "Dashboard Admin",
     text: "Aplikasi manajemen inventaris yang memudahkan pencatatan barang masuk, keluar, serta memantau stok secara akurat dan real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "#"
+    link: null
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const CardWeb = [
     title: "Dasboard Inventaris",
     text: "Aplikasi dashboard inventaris untuk memudahkan pengelolaan stok barang, pencatatan transaksi, dan pembuatan laporan secara real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "#"
+    link: null
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const CardWeb = [
     title: "Sistem Penjualan Sparepart Mobil (User & Admin Panel)",
     text: "Aplikasi web untuk mempermudah penjualan dan pengelolaan stok sparepart mobil, dilengkapi dengan tampilan pengguna (user) untuk pembelian online serta panel admin untuk mengatur produk, kategori, transaksi, dan laporan penjualan.",
     tags: ["Vue.js", "Tailwind", "Laravel", "MySQL"],
-    link: "#"
+    link: null
   },
 ]
 
