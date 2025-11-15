@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Title from './Title'
 import Card from './Card'
-import CardWeb from '../assets/card/web'
+import CardWeb from '../assets/card/web.js'
 import CardUiUx from '../assets/card/UIUX'
 
 const Project = () => {
