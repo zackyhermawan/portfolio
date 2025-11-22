@@ -97,7 +97,7 @@ const CardWeb = [
     deskripsi: "Website Company Profile Contractor ini dirancang sebagai media informasi resmi perusahaan kontraktor dan konstruksi yang berfokus pada penyediaan layanan pembangunan gedung, infrastruktur, renovasi, serta mechanical & electrical engineering. Website ini menampilkan informasi perusahaan secara lengkap, mulai dari sejarah perusahaan, visi misi, struktur komisaris & direksi, jenis layanan, daftar proyek yang pernah ditangani, hingga halaman kontak untuk penawaran dan kerja sama.",
     fitur: ["Halaman Beranda", "Perusahaan", "Proyek", "Manajemen Perusahaan", "Kontak", "Responsif", "Layanan"],
     alt: "Company Profile Contractor & Construction",
-    title: "Company Profile Contructor",
+    title: "Company Profile Contractor & Construction",
     text: "Website Company Profile untuk perusahaan kontraktor konstruksi yang menampilkan profil perusahaan, layanan, proyek portofolio, struktur manajemen, serta kontak bisnis. Dibangun dengan tampilan modern, responsif, dan profesional untuk meningkatkan kepercayaan calon klien dan partner bisnis.",
     tags: ["Vue.js", "Tailwind", "MySQL", "Laravel"],
     link: null
