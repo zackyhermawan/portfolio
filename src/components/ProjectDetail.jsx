@@ -24,7 +24,7 @@ const ProjectDetail = () => {
   const fitur = type === 'web' ? 'Fitur Utama' : 'Total Halaman';
   const fiturUtama = type === 'web' ? 'Fitur Utama' : 'Total Halaman';
   const title = type === 'web' ? 'Teknologi yang digunakan': 'Alat yang digunakan';
-  const view = type === 'web' ? 'Lihat Github' : 'Lihat Prototype';
+  const view = type === 'web' ? 'Lihat Demo' : 'Lihat Prototype';
   const iconTotal = type === 'web' 
     ? 'fa-solid fa-code' 
     : 'fa-solid fa-paintbrush'
