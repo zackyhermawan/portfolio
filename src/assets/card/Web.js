@@ -18,7 +18,7 @@ const CardWeb = [
     title: "Dashboard Admin",
     text: "Aplikasi manajemen inventaris yang memudahkan pencatatan barang masuk, keluar, serta memantau stok secara akurat dan real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "inventaris-competitive.kesug.com"
+    link: "https://inventaris-competitive.kesug.com"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const CardWeb = [
     title: "Dasboard Inventaris",
     text: "Aplikasi dashboard inventaris untuk memudahkan pengelolaan stok barang, pencatatan transaksi, dan pembuatan laporan secara real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "inventaris-demo.kesug.com"
+    link: "https://inventaris-demo.kesug.com"
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const CardWeb = [
     title: "Sistem Aduan Masyarakat",
     text: "Tugas kuliah, merancang aplikasi Sistem Aduan Masyarakat Berbasis Web.",
     tags: ["Tailwind", "Javascript", "PHP", "MySQL"],
-    link: "aduan-masyarakat.infinityfreeapp.com"
+    link: "https://aduan-masyarakat.infinityfreeapp.com"
   },
   {
     id: 5,
