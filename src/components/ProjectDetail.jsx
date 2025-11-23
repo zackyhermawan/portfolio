@@ -58,7 +58,7 @@ const ProjectDetail = () => {
               {project.deskripsi}
             </p>
             
-            <h1 className='font-bold mb-4 text-gray-900'>Demo:</h1>
+            <h1 className='font-bold  text-gray-900'>Demo:</h1>
             <p className='text-gray-900 text-sm sm:text-base leading-relaxed mb-3'>
               {project.username}
             </p>
