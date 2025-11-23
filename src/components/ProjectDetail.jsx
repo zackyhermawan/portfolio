@@ -54,8 +54,16 @@ const ProjectDetail = () => {
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-gray-900">
               {project.title}
             </h1>
-            <p className="text-gray-900 text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-900 text-sm sm:text-base leading-relaxed mb-5">
               {project.deskripsi}
+            </p>
+            
+            <h1 className='font-bold mb-4 text-gray-900'>Demo:</h1>
+            <p className='text-gray-900 text-sm sm:text-base leading-relaxed mb-3'>
+              {project.username}
+            </p>
+            <p className='text-gray-900 text-sm sm:text-base leading-relaxed mb-3'>
+              {project.password}
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 my-7">

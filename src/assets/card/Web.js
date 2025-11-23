@@ -10,13 +10,15 @@ const CardWeb = [
        "/dashboard-competitive/laporanBarang_masuk.png",
        "/dashboard-competitive/laporanBarang_keluar.png",
     ],
+    username: 'Email: adminwarungbudi',
+    password: 'Password: kamijuaranya',
     deskripsi: "Website Dashboard Inventaris adalah aplikasi berbasis web yang dirancang untuk membantu pemilik toko dalam mengelola stok barang secara lebih efisien. Melalui dashboard ini, pengguna dapat melihat ringkasan data barang, menambahkan produk baru, mencatat transaksi masuk dan keluar, serta menghasilkan laporan stok secara otomatis dan bisa export pdf maupun excel.",
     fitur: ["Manajemen Produk (Tambah, Edit, Hapus) ", "Transaksi Masuk & Keluar", "Autentikasi Pengguna", "Laporan Stok", "Export Data ke PDF & Excel"],
     alt: "Dashboard Admin Competitive",
     title: "Dashboard Admin",
     text: "Aplikasi manajemen inventaris yang memudahkan pencatatan barang masuk, keluar, serta memantau stok secara akurat dan real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "https://github.com/zackyhermawan/Dashboard-Inventaris-Competitive-Web"
+    link: "inventaris-competitive.kesug.com"
   },
   {
     id: 3,
@@ -29,13 +31,15 @@ const CardWeb = [
        "/dashboard-inventaris-pwb/laporan_masuk.png",
        "/dashboard-inventaris-pwb/laporan_keluar.png",
     ],
+    username: 'Email: admin@gmail.com',
+    password: 'Password: 12345',
     deskripsi: "Dashboard Inventaris ini adalah aplikasi berbasis web yang saya kembangkan untuk membantu pemilik toko baju dalam mengelola stok barang dengan lebih mudah dan efisien. Sistem ini dirancang agar pemantauan barang masuk, barang keluar, dan laporan stok bisa dilakukan secara real-time tanpa perlu pencatatan manual.",
     fitur: ["Manajemen Produk (Tambah, Edit, Hapus) ", "Transaksi Masuk & Keluar", "Laporan Stok", "Autentikasi Pengguna", "Export Data ke PDF & Excel"],
     alt: "Dashboard Inventaris",
     title: "Dasboard Inventaris",
     text: "Aplikasi dashboard inventaris untuk memudahkan pengelolaan stok barang, pencatatan transaksi, dan pembuatan laporan secara real-time.",
     tags: ["Bootstrap", "PHP", "Javascript", "MySQL"],
-    link: "https://github.com/zackyhermawan/inventaris"
+    link: "inventaris-demo.kesug.com"
   },
   {
     id: 4,
@@ -47,13 +51,15 @@ const CardWeb = [
        "/sistem-pengaduan-masyarakat/riwayat_aduan.png",
        "/sistem-pengaduan-masyarakat/admin_aduan.png",
     ],
+    username: 'Email: user@gmail.com',
+    password: 'Password: user123',
     deskripsi: "Website Aduan Masyarakat adalah aplikasi berbasis web yang dirancang untuk membantu masyarakat mengajukan aduan, saran dan permohonan secara lebih efisien. Disediakan juga dashboard admin untuk mengelola data aduan. Dengan aplikasi ini masyarakat dapat mengajukan aduan tanpa harus datang langsung ke lokasi kantor desa dan akan menjadikan arsip digital supaya mudah disimpan dan dapat ditinjau kapan saja.",
     fitur: ["Manajemen aduan (Tambah, Hapus, Edit)", "Form Pengaduan Online", "Tracking Status Aduan", "Riwayat Aduan"],
     alt: "Sistem Aduan Masyarakat",
     title: "Sistem Aduan Masyarakat",
     text: "Tugas kuliah, merancang aplikasi Sistem Aduan Masyarakat Berbasis Web.",
     tags: ["Tailwind", "Javascript", "PHP", "MySQL"],
-    link: "https://github.com/zackyhermawan/Sistem-Aduan-Masyarakat"
+    link: "aduan-masyarakat.infinityfreeapp.com"
   },
   {
     id: 5,
@@ -70,6 +76,8 @@ const CardWeb = [
         "/penjualan-sparepart/transaksiKeluar_online_penjualan.png",
         "/penjualan-sparepart/laporanStok_penjualan.png",
     ],
+    username: null,
+    password: null,
     deskripsi: "Sistem ini dibangun untuk mengotomatisasi proses bisnis toko sparepart mobil, mulai dari manajemen produk, stok, transaksi, hingga laporan penjualan. Pengguna dapat mencari dan membeli sparepart secara online, sedangkan admin dapat memantau seluruh aktivitas melalui dashboard yang interaktif.",
     fitur: ["Menampilkan daftar sparepart berdasarkan kategori dan pencarian", "Menambahkan produk dan melakukan checkout", "Pembayaran otomatis menggunakan Midtrans (Virtual Account / e-Wallet)", "Melihat status pesanan", "Login dan registrasi pengguna", "Tambah, ubah, hapus data produk dan kategorinya", "Melacak stok masuk dan keluar (transaksi pembelian & penjualan)", "Mencari data berdasarkan kategori, atau status transaksi", "Export excel & PDF"],
     alt: "Dashboard Admin Competitive",
@@ -94,13 +102,15 @@ const CardWeb = [
         "/company_profile_contructor/layanan.png",
         "/company_profile_contructor/footer.png",
     ],
+    username: null,
+    password: null,
     deskripsi: "Website Company Profile Contractor ini dirancang sebagai media informasi resmi perusahaan kontraktor dan konstruksi yang berfokus pada penyediaan layanan pembangunan gedung, infrastruktur, renovasi, serta mechanical & electrical engineering. Website ini menampilkan informasi perusahaan secara lengkap, mulai dari sejarah perusahaan, visi misi, struktur komisaris & direksi, jenis layanan, daftar proyek yang pernah ditangani, hingga halaman kontak untuk penawaran dan kerja sama.",
     fitur: ["Halaman Beranda", "Perusahaan", "Proyek", "Manajemen Perusahaan", "Kontak", "Responsif", "Layanan"],
     alt: "Company Profile Contractor & Construction",
     title: "Company Profile Contractor & Construction",
     text: "Website Company Profile untuk perusahaan kontraktor konstruksi yang menampilkan profil perusahaan, layanan, proyek portofolio, struktur manajemen, serta kontak bisnis. Dibangun dengan tampilan modern, responsif, dan profesional untuk meningkatkan kepercayaan calon klien dan partner bisnis.",
     tags: ["Vue.js", "Tailwind", "MySQL", "Laravel"],
-    link: null
+    link: "https://company-profile-contractor.vercel.app"
   },
 ]
 
