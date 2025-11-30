@@ -35,7 +35,7 @@ const Card = ({id, image, alt, title, text, tags, type }) => {
                 <div className="mt-auto">
                 <Link
                     to={`/project/${type}/${id}`}
-                    className="flex items-center hover:text-secondary font-semibold text-blue-600 hover:text-purple-500 transition-all duration-200 w-fit"
+                    className="flex items-center hover:text-secondary font-semibold text-black hover:text-blue-500 transition-all duration-200 w-fit"
                 >
                     <p>View Project</p> <i className="fas fa-arrow-right ml-2"></i>
                 </Link>
