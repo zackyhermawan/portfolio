@@ -19,17 +19,17 @@ const Project = () => {
                     onClick={() => setActiveTab('web')} 
                     className={`px-5 py-2 rounded font-semibold transition ${
                     activeTab === 'web' 
-                    ? ' bg-gradient-to-r from-purple-500 to-blue-400 rounded text-white shadow-md' 
+                    ? 'bg-transparent border border-neutral-300 rounded-fulltext-black hover:border-transparent hover:bg-black hover:text-white transition' 
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                 >
-                    Web Development
+                    Web Apps
                 </button>
                 <button 
                     onClick={() => setActiveTab('uiux')} 
                     className={`px-5 py-2 rounded font-semibold transition ${
                     activeTab === 'uiux' 
-                    ? ' bg-gradient-to-r from-purple-500 to-blue-400 rounded  text-white shadow-md' 
+                    ? 'bg-transparent border border-neutral-300 rounded-full text-black hover:border-transparent hover:bg-black hover:text-white transition' 
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                 >
