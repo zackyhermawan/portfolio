@@ -19,7 +19,7 @@ const Project = () => {
                     onClick={() => setActiveTab('web')} 
                     className={`px-5 py-2 rounded font-semibold transition ${
                     activeTab === 'web' 
-                    ? 'bg-black text-white transition' 
+                    ? 'bg-black text-white transition rounded-full' 
                     : 'bg-transparent border border-neutral-300 rounded-full text-black hover:border-transparent hover:bg-black hover:text-white transition'
                     }`}
                 >
@@ -29,7 +29,7 @@ const Project = () => {
                     onClick={() => setActiveTab('uiux')} 
                     className={`px-5 py-2 rounded font-semibold transition ${
                     activeTab === 'uiux' 
-                    ? 'bg-black text-white transition' 
+                    ? 'bg-black text-white transition rounded-full' 
                     : 'bg-transparent border border-neutral-300 rounded-full text-black hover:border-transparent hover:bg-black hover:text-white transition'
                     }`}
                 >
