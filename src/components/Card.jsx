@@ -24,7 +24,7 @@ const Card = ({id, image, alt, title, text, tags, type }) => {
                 {tags.map((tag, idx) => (
                     <span
                     key={idx}
-                    className="bg-gray-400 px-3 py-1 rounded mt-auto text-sm"
+                    className="bg-gray-300 px-3 py-1 rounded mt-auto text-sm"
                     >
                     {tag}
                     </span>
