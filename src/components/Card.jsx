@@ -24,7 +24,7 @@ const Card = ({id, image, alt, title, text, tags, type }) => {
                 {tags.map((tag, idx) => (
                     <span
                     key={idx}
-                    className="bg-gray-300 px-3 py-1 rounded mt-auto text-sm"
+                    className="bg-blue-100 text-blue-800 px-3 py-1 rounded mt-auto text-sm"
                     >
                     {tag}
                     </span>
@@ -35,7 +35,7 @@ const Card = ({id, image, alt, title, text, tags, type }) => {
                 <div className="mt-auto">
                 <Link
                     to={`/project/${type}/${id}`}
-                    className="flex items-center hover:text-secondary font-semibold text-black hover:text-blue-500 transition-all duration-200 w-fit"
+                    className="flex items-center hover:text-secondary font-semibold text-blue-600 hover:text-purple-500 transition-all duration-200 w-fit"
                 >
                     <p>View Project</p> <i className="fas fa-arrow-right ml-2"></i>
                 </Link>
